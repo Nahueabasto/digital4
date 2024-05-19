@@ -1,0 +1,8 @@
+.navbar {
+    background-color: #4a4a4a;
+    align-items: center;
+    text-align: center;
+    height: 90px;
+    padding: 1.5rem;
+    color: #ffffff; /* Texto en color blanco */
+}
