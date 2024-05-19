@@ -1,15 +1,13 @@
 {
-  "version": 2,
-  "builds": [
+    "headers": [
       {
-          "src": "./index.js",
-          "use": "@vercel/node"
+        "source": "/register",
+        "headers": [
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "https://digital4.vercel.app"
+          }
+        ]
       }
-  ],
-  "routes": [
-      {
-          "src": "/(.*)",
-          "dest": "/"
-      }
-  ]
-}
+    ]
+  }
