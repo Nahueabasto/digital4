@@ -12,7 +12,7 @@ app.use(cookieParser('your-secret-key', { sameSite: 'None', secure: true }));
 
 // Configuración de CORS
 app.use(cors({
-  origin: ["http://localhost:5173", "https://red-social-8ysd.vercel.app"],
+  origin: ["http://localhost:5173", "https://digital4.vercel.app"],
   credentials: true,
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   allowedHeaders: 'Content-Type,Authorization',
