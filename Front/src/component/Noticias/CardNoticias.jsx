@@ -1,15 +1,17 @@
 import React from 'react';
 import { useNoticias } from '../../context/NoticiasContext';
+import "./CardNoticias.css"
 
 const CardNoticias = (props) => {
 
     return (
-        <div className="noticias">
-                <div className='noticia'>
-                    <h3>{props.title}</h3>
+        <div className="noticia">
+                <div className='noticias'>
+                <a href={props.url}>
+                    <p>{props.title}</p>
                     <p>{props.author}</p>
                     <p>{props.publishedAt}</p>
-                    <a href={props.url}>Ver más</a>
+                    </a>
                 </div>
         </div>
     );

@@ -1,0 +1,11 @@
+.project-containerr{
+    background-color: #c7c5c5; /* Color de fondo más oscuro */
+    padding: 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    color: #ffffff; /* Texto en color blanco */
+}
+
+.product-container{
+    max-width: 700px;
+    margin: auto;
+}
