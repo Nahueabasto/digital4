@@ -1,5 +1,5 @@
 import React from 'react';
-import { useDolar } from '../DolarContext';
+import { useDolar } from '../context/DolarContext';
 import './SubNavBar.css';
 
 const SubNavBar = () => {

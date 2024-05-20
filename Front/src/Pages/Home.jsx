@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import NavBar from '../component/Navbar';
 import SubNavBar from '../component/SubNavBar';
+import Noticias from '../component/Noticias/Noticias';
 
 
 export default function Home(){
@@ -13,6 +14,7 @@ export default function Home(){
         <div>
             <NavBar/>
             <SubNavBar/>
+            <Noticias/>
         </div>
     )
 }

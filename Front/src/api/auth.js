@@ -1,8 +1,9 @@
 import axios from "./axios";
 
 
-export const dolarAxios = () => axios.get('/dolar'); // Asegúrate de que el endpoint es correcto
+export const dolarAxios = () => axios.get('/dolar'); 
 
+export const noticiasAxios = () => axios.get('/noticias'); 
 
 
 

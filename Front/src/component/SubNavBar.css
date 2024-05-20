@@ -3,13 +3,12 @@
         padding: 0.5rem;
         margin-bottom: 35px;
         display: flex; /* Usar flexbox para alinear el contenido */
-        align-items: center;
       }
       
       .dolar {
         display: flex; /* Alinear los h3 horizontalmente */
         align-items: center;
-        gap: 1rem; /* Espacio entre los h3 */
+        gap: 0.5rem; /* Espacio entre los h3 */
       }
       
       .dolar h3 {

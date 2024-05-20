@@ -1,5 +1,5 @@
 import React, { createContext, useState, useEffect, useContext } from 'react';
-import { dolarAxios } from './api/auth';
+import { dolarAxios } from '../api/auth';
 
 const DolarContext = createContext();
 
@@ -27,7 +27,3 @@ export const DolarProvider = ({ children }) => {
     </DolarContext.Provider>
   );
 };
-
-
-
-

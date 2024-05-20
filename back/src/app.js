@@ -3,6 +3,7 @@ import morgan from 'morgan';
 import cookieParser from 'cookie-parser';
 import cors from 'cors';
 import dolarRoutes from './routes/getDolar.js';
+import NoticiasAr from './routes/getNoticias.js';
 
 const app = express();
 
@@ -20,6 +21,7 @@ app.use(cors({
 
 // Usar rutas
 app.use('/', dolarRoutes);
+app.use('/', NoticiasAr);
 
 export default app;
 
