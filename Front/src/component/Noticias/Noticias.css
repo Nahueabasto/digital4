@@ -1,11 +1,78 @@
-.project-containerr{
-    background-color: #c7c5c5; /* Color de fondo más oscuro */
+.product-container {
+    max-width: 1000px;
+    margin: 0 auto; /* Esto centrará el contenedor en la página horizontalmente */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px; /* Espacio entre tarjetas */
+    padding-bottom: 5rem;
+    justify-content: center; /* Centrar las columnas horizontalmente */
+    margin-top: 40px;
+} 
+
+.project-containerr {
+    background-color: #ffffff; /* Color de fondo más blanco */
     padding: 50px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    color: #ffffff; /* Texto en color blanco */
+    color: #1a1a1a; /* Texto en color azul oscuro */
+  
 }
 
-.product-container{
-    max-width: 700px;
-    margin: auto;
+.timeline {
+    padding: 20px;
+    position: relative;
+    
+}
+
+
+.timeline .relative {
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.timeline .dot {
+    position: absolute;
+    left: 0;
+    top: 25px;
+    height: 10px;
+    width: 10px;
+    background-color: #636262; /* Cambiar a un color oscuro para que contraste con el fondo más blanco */
+    border-radius: 50%;
+}
+
+.timeline .timeline-date {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #636262;; /* Texto en color azul oscuro */
+}
+
+.timeline .timeline-title {
+    font-size: 18px;
+    margin: 0;
+    color: hsl(211, 82%, 37%);
+    transition: color 0.3s;
+}
+
+.timeline-title:hover {
+    color: #444343; /* Cambiamos el color a gris cuando se pasa el cursor sobre el título */
+}
+
+.timeline .text-grey-500 {
+    color: #1a1a1a; /* Texto en color azul oscuro */
+}
+
+.timeline .text-grey-500:hover {
+    color: hsl(211, 82%, 37%); /* Un tono más claro de azul oscuro */
+}
+
+a {
+    text-decoration: none;
+}
+
+h2{
+    color: black; 
+    text-align: center;
+    margin-bottom: 20px;
 }

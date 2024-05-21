@@ -5,7 +5,7 @@ const NavBar = () => {
 
 return(
     <div className="navbar">
-        <h1>El Diario</h1>
+        <h1>News Argentina</h1>
     </div>
 )
 }
