@@ -16,8 +16,8 @@ const SubNavBar = () => {
       <div className='dolar'>
       <h3>Dólar Oficial: ${official.value_sell}</h3>
       <h3>Dólar Blue: ${blue.value_sell}</h3>
-      <h3>Euro Oficial: ${official_euro.value_sell}</h3>
-      <h3>Euro Blue: ${blue_euro.value_sell}</h3>
+      {/* <h3>Euro Oficial: ${official_euro.value_sell}</h3>
+      <h3>Euro Blue: ${blue_euro.value_sell}</h3> */}
       </div>
     </div>
   );

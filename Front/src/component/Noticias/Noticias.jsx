@@ -1,38 +1,3 @@
-// import React from 'react';
-// import CardNoticias from './CardNoticias';
-// import { useNoticias } from '../../context/NoticiasContext';
-// import "./Noticias.css"
-
-// const Noticias = () => {
-//     const { noticiasData } = useNoticias();
-
-//     if (!noticiasData) {
-//         return <div>Loading...</div>; // Mostrar un mensaje de carga mientras los datos están siendo recuperados
-//     }
-
-//     return (
-//         <div className="product-container">
-        
-//         <div className="project-container">
-//         <h2>Ultimas noticias de diarios argentinos</h2>
-//         {noticiasData.map((val, ind) => {
-//           return (
-//             <CardNoticias
-//             //id={val.id}
-//               key={ind}
-//               title={val.title}
-//               author={val.author}
-//               //publishedAt={val.publishedAt}
-//               url={val.url}
-//             />
-//           );
-//         })}
-//       </div>
-//       </div>
-//     );
-// }
-
-// export default Noticias;
 import React from 'react';
 import { useNoticias } from '../../context/NoticiasContext';
 import "./Noticias.css";

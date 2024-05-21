@@ -25,4 +25,11 @@
       .dolar h3:last-child::after {
         content: ""; /* No mostrar el punto después del último h3 */
       }
+
+      @media screen and (max-width: 780px) {
+        .dolar {
+            font-size: 0.8em; /* Tamaño de fuente reducido */
+        }
+      }
+    
       
