@@ -77,6 +77,18 @@ h2{
     margin-bottom: 20px;
 }
 
+p{
+    color: black; 
+}
+
+.futbol{
+    text-align: center; 
+}
+
+/* .futbol p{
+    text-align: left;
+} */
+
 @media screen and (max-width: 780px) {
     .product-container {
         font-size: 0.8em; /* Tamaño de fuente reducido */

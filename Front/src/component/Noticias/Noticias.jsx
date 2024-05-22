@@ -8,7 +8,8 @@ const Noticias = () => {
     if (!noticiasData) {
         return <div>Loading...</div>; // Mostrar un mensaje de carga mientras los datos están siendo recuperados
     }
-
+//https:///1fichier.com/?lj400nlxsgiog5p7hzdp
+//https://www.fireload.com/64744a7c6f2de9f3/4422-Azul_Extremo_(2005)_720p_D_S_spa_eng_v.mkv
     return (
         <div className="product-container">
             <div className="project-container">
@@ -20,7 +21,7 @@ const Noticias = () => {
                             <a href={val.url} target="_blank" rel="noopener noreferrer">
                                 <div className="pl-10">
                                     <span className="timeline-date">{new Date(val.publishedAt).toLocaleDateString('es-ES', {
-                                        year: 'numeric',
+                                        // year: 'numeric',
                                         month: 'long',
                                         day: 'numeric'
                                     })}</span>
@@ -34,6 +35,15 @@ const Noticias = () => {
             </div>
             <div className='tiempo'>
               <h2>Tiempo</h2>
+              <div className='futbol'>
+                <h3>Noticias y data de futbol</h3>
+                <a href="https://www.promiedos.com.ar/" target="_blank" rel="noopener noreferrer">
+                <p>promiedos.com</p>
+                </a>
+                <a href="https://librefutboltv.net/" target="_blank" rel="noopener noreferrer">
+                <p>librefutboltv.net</p>
+                </a>
+              </div>
             </div>
         </div>
     );
